@@ -16,7 +16,7 @@ resource "aws_lb" "aws_cloud2_lb" {
     aws_subnet.my_public2.id,
   ]
 
-  enable_deletion_protection = true
+  enable_deletion_protection = false
 
 
   tags = {
