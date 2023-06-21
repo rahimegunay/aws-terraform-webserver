@@ -12,7 +12,7 @@ Before getting started, make sure you have the following prerequisites:
 # Is this project suitable for Production?
 This project is primarily designed for testing purposes and may not meet all the requirements of a production environment. Production environments typically require additional considerations such as high availability, scalability, load balancing, CI/CD pipeline, logging, monitoring, and security systems. Please ensure to adapt this project according to your specific production requirements and best practices.
 
-# Why Terraform and AWS EC2 with NGINX?
+# Why Terraform and AWS EC2 with Nginx?
 Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to define and manage infrastructure resources in a declarative manner. It provides a consistent and reproducible way to create and modify infrastructure across different cloud providers, including AWS.
 
 AWS EC2 (Elastic Compute Cloud) offers scalable compute capacity in the cloud, allowing you to provision virtual servers on-demand. EC2 instances are well-suited for hosting web applications, providing flexibility, control, and the ability to scale resources based on demand.
