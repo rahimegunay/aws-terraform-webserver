@@ -17,13 +17,13 @@ Terraform is a powerful Infrastructure as Code (IaC) tool that allows you to def
 
 AWS EC2 (Elastic Compute Cloud) offers scalable compute capacity in the cloud, allowing you to provision virtual servers on-demand. EC2 instances are well-suited for hosting web applications, providing flexibility, control, and the ability to scale resources based on demand.
 
-NGINX is a popular web server known for its high performance, scalability, and advanced features. It acts as a reverse proxy and load balancer, efficiently handling incoming client requests and distributing them across multiple backend servers. NGINX is often used in production environments to achieve high availability and improve the overall performance of web applications.
+Nginx is a popular web server known for its high performance, scalability, and advanced features. It acts as a reverse proxy and load balancer, efficiently handling incoming client requests and distributing them across multiple backend servers. Nginx is often used in production environments to achieve high availability and improve the overall performance of web applications.
 
 By combining Terraform, AWS EC2, and NGINX, you can automate the provisioning of infrastructure, easily scale resources, and leverage the powerful capabilities of NGINX to deliver a robust and performant web application.
 
 # Setting up project environment
 
-1. First step is to create a folder on your device and open it up in VSCode.
+1. First step is to clone the folder on your device and open it up in VSCode.
 2. Execute the command terraform init to setup the project workspace.
 3. Execute the command terraform apply to provision the infrastructure. This will create a VPC with Public Subnets, Internet Gateway and EC2 instances with Security Group.
 4. Execute the command terraform apply to provision the Autoscaling and Application Load Balancer with Security Group.
