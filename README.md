@@ -19,7 +19,7 @@ AWS EC2 (Elastic Compute Cloud) offers scalable compute capacity in the cloud, a
 
 Nginx is a popular web server known for its high performance, scalability, and advanced features. It acts as a reverse proxy and load balancer, efficiently handling incoming client requests and distributing them across multiple backend servers. Nginx is often used in production environments to achieve high availability and improve the overall performance of web applications.
 
-By combining Terraform, AWS EC2, and NGINX, you can automate the provisioning of infrastructure, easily scale resources, and leverage the powerful capabilities of NGINX to deliver a robust and performant web application.
+By combining Terraform, AWS EC2, and Nginx you can automate the provisioning of infrastructure, easily scale resources, and leverage the powerful capabilities of Nginx to deliver a robust and performant web application.
 
 # Setting up project environment
 
