@@ -31,4 +31,4 @@ By combining Terraform, AWS EC2, and Nginx you can automate the provisioning of 
 6. Execute the command terraform destroy to destroy the infrastructure.
 
 # Note
-The resources created in this demo pproject may incur cost. So please take care to destroy the infrastructure if you don't need it.
+The resources created in this demo project may incur cost. So please take care to destroy the infrastructure if you don't need it.
